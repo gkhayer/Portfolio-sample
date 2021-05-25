@@ -26,6 +26,7 @@ import Params from "./useParamExample/Params";
 import GetUserHistory from "./useHistoryExample/GetUserHistory";
 import SearchFilter from "./SearchFilter";
 import Home from "./Home";
+import UseEffectApi from "./useeffectHooksFetchApi/UseEffectApi"
 
 const favSeries = "netflix";
 const Netflix = () => {
@@ -73,6 +74,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route path="/routingExample" component={RoutingExample} />
+        <Route path="/UseEffectApi" component={UseEffectApi} />
         <Route path="/pokemonApi" component={PokemonApi} />
         <Route path="/getDataFromApi" component={GetDataFromApi} />
         <Route path="/hookChallenge" component={HookChallenge} />

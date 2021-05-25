@@ -18,6 +18,14 @@ const Navbar = () => {
             exact
             className="nav_Link"
             activeClassName="active_class"
+            to="/UseEffectApi"
+          >
+            Get Movies Info
+          </NavLink>
+          <NavLink
+            exact
+            className="nav_Link"
+            activeClassName="active_class"
             to="/todo"
           >
             Todo
