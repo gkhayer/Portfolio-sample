@@ -26,6 +26,14 @@ const Navbar = () => {
             exact
             className="nav_Link"
             activeClassName="active_class"
+            to="/filterWeather"
+          >
+            Weather
+          </NavLink>
+          <NavLink
+            exact
+            className="nav_Link"
+            activeClassName="active_class"
             to="/todo"
           >
             Todo

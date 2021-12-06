@@ -27,6 +27,7 @@ import GetUserHistory from "./useHistoryExample/GetUserHistory";
 import SearchFilter from "./SearchFilter";
 import Home from "./Home";
 import UseEffectApi from "./useeffectHooksFetchApi/UseEffectApi"
+import FilterWeather from "./searchfilter/FilterWeather";
 
 const favSeries = "netflix";
 const Netflix = () => {
@@ -94,6 +95,7 @@ const App = () => {
         <Route path="/miniNavBar" component={MiniNavBar} />
         <Route path="/getUserHistory" component={GetUserHistory} />
         <Route path="/searchFilter" component={SearchFilter} />
+        <Route path="/filterWeather" component={FilterWeather} />
         {/* we can also pass props */}
         {/* Component vs Render */}
         {/* This is Route Component example */}
